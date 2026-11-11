@@ -16,12 +16,11 @@ export type LinkItem = {
 
 export const profile: Profile = {
   name: "이종민",
-  bio: "번역하는 사람",
+  bio: "영한 출판 번역가, 역서\u00A0<\u2060도둑맞은\u00A0자부심> 등 10여 권",
   initial: "J",
 };
 
 export const links: LinkItem[] = [
-  { id: "github", title: "GitHub", url: "https://github.com" },
-  { id: "linkedin", title: "LinkedIn", url: "https://www.linkedin.com" },
-  { id: "blog", title: "Blog", url: "https://example.com" },
+  { id: "instagram", title: "인스타그램", url: "https://instagram.com/jongmin_yi" },
+  { id: "translators", title: "바른번역", url: "https://translators.co.kr/translators/109" },
 ];
